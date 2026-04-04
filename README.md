@@ -4,3 +4,9 @@
 This project analyzes Netflix movies and TV shows data using SQL to extract meaningful insights.
 The analysis focuses on understanding content distribution, ratings, trends, and patterns across different countries and years.
 ## 🎯Objectives
+- Analyze distribution of Movies vs TV Shows
+- Identify the most common ratings
+- Find top countries producing content
+- Analyze content trends over the years
+- Identify longest movies and TV shows
+- Categorize content based on keywords

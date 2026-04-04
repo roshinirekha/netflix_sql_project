@@ -17,9 +17,11 @@ The dataset used in this project is sourced from Kaggle.
 - **Dataset Name:** Netflix Movies and TV Shows  
 - **Source:** Kaggle  
 - **Link:** https://www.kaggle.com/datasets/shivamb/netflix-shows  
+- **Records:** ~8800+ entries  
 
-This dataset contains information about Netflix content including title, type, cast, country, release year, rating, duration, and description.
-### Columns include:
+This dataset provides structured information about Netflix content, including various attributes related to movies and TV shows.
+
+### Columns Included:
 - Title  
 - Type (Movie / TV Show)  
 - Director  
@@ -29,7 +31,7 @@ This dataset contains information about Netflix content including title, type, c
 - Rating  
 - Duration  
 - Genre (listed_in)  
-- Description
+- Description  
 
 ## 🗂️ Schema
 ```sql

@@ -264,4 +264,4 @@ This analysis provides a comprehensive view of Netflix's content and can help in
 - Conditional Logic (CASE WHEN)  
 
 ## 👩‍💻 Author-Roshini R
-This project is part of my portfolio, demonstrating SQL skills relevant to data analyst roles, focusing on real-world data exploration and insights.
+This project is part of my portfolio, demonstrating practical SQL skills used in real-world data analysis.

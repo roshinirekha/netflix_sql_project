@@ -249,7 +249,8 @@ GROUP BY category;
 - **Content Categorization:** Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
-## 🛠️ Tools Used
+## 🛠️ Technical Overview
+## 🔧 Tools Used
 
 - **SQL (PostgreSQL)** – for data querying and analysis  
 - **Kaggle Dataset** – data source  
@@ -263,5 +264,6 @@ This analysis provides a comprehensive view of Netflix's content and can help in
 - String Functions (STRING_TO_ARRAY, UNNEST)  
 - Conditional Logic (CASE WHEN)  
 
-## 👩‍💻 Author-Roshini R
+## 👩‍💻 Author-
+### Roshini R
 This project is part of my portfolio, demonstrating practical SQL skills used in real-world data analysis.

@@ -30,6 +30,7 @@ This dataset contains information about Netflix content including title, type, c
 - Genre (listed_in)  
 - Description
   ## 🗂️ Schema
+```sql
 CREATE TABLE netflix(
     show_id VARCHAR(6),
     type VARCHAR(10),
@@ -44,14 +45,15 @@ CREATE TABLE netflix(
     listed_in VARCHAR(100),
     description VARCHAR(250)
  );
+```
  ## 💼 Business Problems & SQL Queries
- # 1. Count the Number of Movies vs TV Shows
+ ### 1. Count the Number of Movies vs TV Shows
 SELECT type,COUNT(*) AS total_content 
 FROM netflix 
 GROUP BY type;
 ** Objective :** Determine the distribution of content types on Netflix.
 
-# 2. Find the Most Common Rating for Movies and TV Shows
+### 2. Find the Most Common Rating for Movies and TV Shows
 SELECT 
     type,
     rating 

@@ -256,7 +256,6 @@ This analysis provides a comprehensive view of Netflix's content and can help in
 - **Kaggle Dataset** – data source  
 - **GitHub** – version control and project documentation  
 
----
 ## SQL Concepts Used
 
 - Aggregations (COUNT, GROUP BY)  

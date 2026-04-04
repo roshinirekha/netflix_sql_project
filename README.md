@@ -30,7 +30,8 @@ This dataset contains information about Netflix content including title, type, c
 - Duration  
 - Genre (listed_in)  
 - Description
-  ## 🗂️ Schema
+
+## 🗂️ Schema
 ```sql
 CREATE TABLE netflix(
     show_id VARCHAR(6),
@@ -54,7 +55,7 @@ SELECT type,COUNT(*) AS total_content
 FROM netflix 
 GROUP BY type;
 ```
-** Objective :** Determine the distribution of content types on Netflix.
+**Objective :** Determine the distribution of content types on Netflix.
 
 ### 2. Find the Most Common Rating for Movies and TV Shows
  ```sql
@@ -231,3 +232,25 @@ FROM new_table
 GROUP BY category;
 ```
 **Objective:** Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
+
+## 📈 Key Insights
+- Movies are more common than TV Shows on Netflix
+- USA and India produce the highest number of titles
+- TV-MA is the most frequent rating
+- Content production increased significantly after 2015
+- Certain genres dominate Netflix’s catalog
+
+ ## ✅ Conclusion
+- **Content Distribution:** The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
+- **Common Ratings:** Insights into the most common ratings provide an understanding of the content's target audience.
+- **Geographical Insights:** The top countries and the average content releases by India highlight regional content distribution.
+- **Content Categorization:** Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
+This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+
+## 🛠️ Tools Used
+
+- SQL (PostgreSQL)
+- Kaggle Dataset
+
+## 👩‍💻 Author-Roshini R
+This project is part of my data analytics portfolio.

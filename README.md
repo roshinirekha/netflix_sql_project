@@ -250,13 +250,13 @@ GROUP BY category;
 This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
 
 ## 🛠️ Technical Overview
-## 🔧 Tools Used
+### 🔧 Tools Used
 
 - **SQL (PostgreSQL)** – for data querying and analysis  
 - **Kaggle Dataset** – data source  
 - **GitHub** – version control and project documentation  
 
-## 🧠 SQL Concepts Used
+### 🧠 SQL Concepts Used
 
 - Aggregations (COUNT, GROUP BY)  
 - Window Functions (RANK)  
@@ -264,6 +264,6 @@ This analysis provides a comprehensive view of Netflix's content and can help in
 - String Functions (STRING_TO_ARRAY, UNNEST)  
 - Conditional Logic (CASE WHEN)  
 
-## 👩‍💻 Author-
+## 👩‍💻 Author
 ### Roshini R
 This project is part of my portfolio, demonstrating practical SQL skills used in real-world data analysis.
